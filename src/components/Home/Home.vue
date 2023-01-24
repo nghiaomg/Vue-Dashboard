@@ -165,5 +165,11 @@
 </template>
 
 <script>
-
+export default {
+    mounted(){
+        $(function(){
+            $(document).attr("title", "Memory | Home");
+        });
+    }
+}
 </script>
